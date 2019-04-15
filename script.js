@@ -11,7 +11,7 @@ const classNames = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven
 async function run() {  
     const data = await getData();
   
-    await displayDataFunction(data, 30);
+    await displayDataFunction(data, 50);
   
     const model = createModel();
     tfvis.show.modelSummary({name: 'Model Architecture'}, model);
